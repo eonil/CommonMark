@@ -1,0 +1,3 @@
+[submodule "Dependencies/stmd"]
+	path = Dependencies/stmd
+	url = https://github.com/jgm/stmd.git
