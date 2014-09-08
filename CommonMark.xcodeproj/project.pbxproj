@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45A7CAF719BD5C0100EAE282 /* CommonMarkInlineList.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A7CAF619BD5C0100EAE282 /* CommonMarkInlineList.m */; };
+		45A7CAFD19BD5CD500EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A7CAFC19BD5CD500EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.m */; };
+		45A7CB0019BD625000EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A7CAFF19BD625000EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.m */; };
+		45E20BF719BC529E0095C94F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20BF619BC529E0095C94F /* main.m */; };
+		45E20D4719BC578E0095C94F /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D3B19BC578E0095C94F /* blocks.c */; };
+		45E20D4819BC578E0095C94F /* bstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D3C19BC578E0095C94F /* bstrlib.c */; };
+		45E20D4919BC578E0095C94F /* detab.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D3E19BC578E0095C94F /* detab.c */; };
+		45E20D4A19BC578F0095C94F /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D3F19BC578E0095C94F /* html.c */; };
+		45E20D4B19BC578F0095C94F /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D4019BC578E0095C94F /* inlines.c */; };
+		45E20D4C19BC578F0095C94F /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D4119BC578E0095C94F /* print.c */; };
+		45E20D4D19BC578F0095C94F /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D4219BC578E0095C94F /* scanners.c */; };
+		45E20D4E19BC578F0095C94F /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D4519BC578E0095C94F /* utf8.c */; };
+		45E20D5A19BC59450095C94F /* CommonMarkInline.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D5919BC59450095C94F /* CommonMarkInline.m */; };
+		45E20D5D19BC594F0095C94F /* CommonMarkReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D5C19BC594F0095C94F /* CommonMarkReference.m */; };
+		45E20D6019BC59590095C94F /* CommonMarkSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D5F19BC59590095C94F /* CommonMarkSubject.m */; };
+		45E20D6619BC597D0095C94F /* CommonMarkBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D6519BC597D0095C94F /* CommonMarkBlock.m */; };
+		45E20D6E19BCFC120095C94F /* CommonMark__INTERNALS.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D6D19BCFC120095C94F /* CommonMark__INTERNALS.m */; };
+		45E20D7119BCFDFD0095C94F /* CommonMarkError.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D7019BCFDFD0095C94F /* CommonMarkError.m */; };
+		45E20D7719BD07330095C94F /* CommonBlockList.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D7619BD07330095C94F /* CommonBlockList.m */; };
+		45E20D7A19BD07400095C94F /* CommonMarkBlockList.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D7919BD07400095C94F /* CommonMarkBlockList.m */; };
+		45E20D7D19BD2A970095C94F /* CommonMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D7C19BD2A970095C94F /* CommonMark.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45E20BF119BC529E0095C94F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		45A7CAF519BD5C0100EAE282 /* CommonMarkInlineList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkInlineList.h; sourceTree = "<group>"; };
+		45A7CAF619BD5C0100EAE282 /* CommonMarkInlineList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMarkInlineList.m; sourceTree = "<group>"; };
+		45A7CAFB19BD5CD500EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMark__INTERNAL_STRING_UTILITIES.h; sourceTree = "<group>"; };
+		45A7CAFC19BD5CD500EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMark__INTERNAL_STRING_UTILITIES.m; sourceTree = "<group>"; };
+		45A7CAFE19BD625000EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMark__INTERNAL_ENUM_MAPPINGS.h; sourceTree = "<group>"; };
+		45A7CAFF19BD625000EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMark__INTERNAL_ENUM_MAPPINGS.m; sourceTree = "<group>"; };
+		45E20BF319BC529E0095C94F /* CommonMark */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommonMark; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E20BF619BC529E0095C94F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45E20D3B19BC578E0095C94F /* blocks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blocks.c; sourceTree = "<group>"; };
+		45E20D3C19BC578E0095C94F /* bstrlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bstrlib.c; sourceTree = "<group>"; };
+		45E20D3D19BC578E0095C94F /* bstrlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bstrlib.h; sourceTree = "<group>"; };
+		45E20D3E19BC578E0095C94F /* detab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = detab.c; sourceTree = "<group>"; };
+		45E20D3F19BC578E0095C94F /* html.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = html.c; sourceTree = "<group>"; };
+		45E20D4019BC578E0095C94F /* inlines.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inlines.c; sourceTree = "<group>"; };
+		45E20D4119BC578E0095C94F /* print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = print.c; sourceTree = "<group>"; };
+		45E20D4219BC578E0095C94F /* scanners.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = scanners.c; sourceTree = "<group>"; };
+		45E20D4319BC578E0095C94F /* scanners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scanners.h; sourceTree = "<group>"; };
+		45E20D4419BC578E0095C94F /* stmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stmd.h; sourceTree = "<group>"; };
+		45E20D4519BC578E0095C94F /* utf8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utf8.c; sourceTree = "<group>"; };
+		45E20D4619BC578E0095C94F /* utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf8.h; sourceTree = "<group>"; };
+		45E20D4F19BC57A10095C94F /* uthash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uthash.h; sourceTree = "<group>"; };
+		45E20D5019BC57B20095C94F /* debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		45E20D5119BC57C40095C94F /* case_fold_switch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = case_fold_switch.c; sourceTree = "<group>"; };
+		45E20D5219BC57CF0095C94F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		45E20D5419BC581A0095C94F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		45E20D5819BC59450095C94F /* CommonMarkInline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkInline.h; sourceTree = "<group>"; };
+		45E20D5919BC59450095C94F /* CommonMarkInline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMarkInline.m; sourceTree = "<group>"; };
+		45E20D5B19BC594F0095C94F /* CommonMarkReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkReference.h; sourceTree = "<group>"; };
+		45E20D5C19BC594F0095C94F /* CommonMarkReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMarkReference.m; sourceTree = "<group>"; };
+		45E20D5E19BC59590095C94F /* CommonMarkSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkSubject.h; sourceTree = "<group>"; };
+		45E20D5F19BC59590095C94F /* CommonMarkSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMarkSubject.m; sourceTree = "<group>"; };
+		45E20D6419BC597D0095C94F /* CommonMarkBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkBlock.h; sourceTree = "<group>"; };
+		45E20D6519BC597D0095C94F /* CommonMarkBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMarkBlock.m; sourceTree = "<group>"; };
+		45E20D6719BCEEFE0095C94F /* license.bstrlib.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = license.bstrlib.txt; sourceTree = "<group>"; };
+		45E20D6819BCEEFE0095C94F /* license.uthash.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = license.uthash.txt; sourceTree = "<group>"; };
+		45E20D6C19BCFC120095C94F /* CommonMark__INTERNALS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMark__INTERNALS.h; sourceTree = "<group>"; };
+		45E20D6D19BCFC120095C94F /* CommonMark__INTERNALS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMark__INTERNALS.m; sourceTree = "<group>"; };
+		45E20D6F19BCFDFD0095C94F /* CommonMarkError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkError.h; sourceTree = "<group>"; };
+		45E20D7019BCFDFD0095C94F /* CommonMarkError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMarkError.m; sourceTree = "<group>"; };
+		45E20D7519BD07330095C94F /* CommonBlockList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonBlockList.h; sourceTree = "<group>"; };
+		45E20D7619BD07330095C94F /* CommonBlockList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonBlockList.m; sourceTree = "<group>"; };
+		45E20D7819BD07400095C94F /* CommonMarkBlockList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkBlockList.h; sourceTree = "<group>"; };
+		45E20D7919BD07400095C94F /* CommonMarkBlockList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMarkBlockList.m; sourceTree = "<group>"; };
+		45E20D7B19BD2A970095C94F /* CommonMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMark.h; sourceTree = "<group>"; };
+		45E20D7C19BD2A970095C94F /* CommonMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMark.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45E20BF019BC529E0095C94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45E20BEA19BC529E0095C94F = {
+			isa = PBXGroup;
+			children = (
+				45E20D5219BC57CF0095C94F /* README.md */,
+				45E20BFD19BC535F0095C94F /* Dependencies */,
+				45E20BF519BC529E0095C94F /* Markdown */,
+				45E20BF419BC529E0095C94F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45E20BF419BC529E0095C94F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45E20BF319BC529E0095C94F /* CommonMark */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45E20BF519BC529E0095C94F /* Markdown */ = {
+			isa = PBXGroup;
+			children = (
+				45E20CCF19BC544A0095C94F /* stmd */,
+				45E20BF619BC529E0095C94F /* main.m */,
+				45E20D7B19BD2A970095C94F /* CommonMark.h */,
+				45E20D7C19BD2A970095C94F /* CommonMark.m */,
+				45E20D6C19BCFC120095C94F /* CommonMark__INTERNALS.h */,
+				45E20D6D19BCFC120095C94F /* CommonMark__INTERNALS.m */,
+				45A7CAFB19BD5CD500EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.h */,
+				45A7CAFC19BD5CD500EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.m */,
+				45A7CAFE19BD625000EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.h */,
+				45A7CAFF19BD625000EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.m */,
+				45E20D5819BC59450095C94F /* CommonMarkInline.h */,
+				45E20D5919BC59450095C94F /* CommonMarkInline.m */,
+				45A7CAF519BD5C0100EAE282 /* CommonMarkInlineList.h */,
+				45A7CAF619BD5C0100EAE282 /* CommonMarkInlineList.m */,
+				45E20D5B19BC594F0095C94F /* CommonMarkReference.h */,
+				45E20D5C19BC594F0095C94F /* CommonMarkReference.m */,
+				45E20D5E19BC59590095C94F /* CommonMarkSubject.h */,
+				45E20D5F19BC59590095C94F /* CommonMarkSubject.m */,
+				45E20D6419BC597D0095C94F /* CommonMarkBlock.h */,
+				45E20D6519BC597D0095C94F /* CommonMarkBlock.m */,
+				45E20D7819BD07400095C94F /* CommonMarkBlockList.h */,
+				45E20D7919BD07400095C94F /* CommonMarkBlockList.m */,
+				45E20D7519BD07330095C94F /* CommonBlockList.h */,
+				45E20D7619BD07330095C94F /* CommonBlockList.m */,
+				45E20D6F19BCFDFD0095C94F /* CommonMarkError.h */,
+				45E20D7019BCFDFD0095C94F /* CommonMarkError.m */,
+			);
+			name = Markdown;
+			path = CommonMark;
+			sourceTree = "<group>";
+		};
+		45E20BFD19BC535F0095C94F /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		45E20CCF19BC544A0095C94F /* stmd */ = {
+			isa = PBXGroup;
+			children = (
+				45E20D5419BC581A0095C94F /* LICENSE */,
+				45E20D6719BCEEFE0095C94F /* license.bstrlib.txt */,
+				45E20D6819BCEEFE0095C94F /* license.uthash.txt */,
+				45E20D3B19BC578E0095C94F /* blocks.c */,
+				45E20D3C19BC578E0095C94F /* bstrlib.c */,
+				45E20D3D19BC578E0095C94F /* bstrlib.h */,
+				45E20D5119BC57C40095C94F /* case_fold_switch.c */,
+				45E20D5019BC57B20095C94F /* debug.h */,
+				45E20D3E19BC578E0095C94F /* detab.c */,
+				45E20D3F19BC578E0095C94F /* html.c */,
+				45E20D4019BC578E0095C94F /* inlines.c */,
+				45E20D4119BC578E0095C94F /* print.c */,
+				45E20D4219BC578E0095C94F /* scanners.c */,
+				45E20D4319BC578E0095C94F /* scanners.h */,
+				45E20D4419BC578E0095C94F /* stmd.h */,
+				45E20D4519BC578E0095C94F /* utf8.c */,
+				45E20D4619BC578E0095C94F /* utf8.h */,
+				45E20D4F19BC57A10095C94F /* uthash.h */,
+			);
+			path = stmd;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45E20BF219BC529E0095C94F /* CommonMark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45E20BFA19BC529E0095C94F /* Build configuration list for PBXNativeTarget "CommonMark" */;
+			buildPhases = (
+				45E20BEF19BC529E0095C94F /* Sources */,
+				45E20BF019BC529E0095C94F /* Frameworks */,
+				45E20BF119BC529E0095C94F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommonMark;
+			productName = Markdown;
+			productReference = 45E20BF319BC529E0095C94F /* CommonMark */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45E20BEB19BC529E0095C94F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Eonil;
+				TargetAttributes = {
+					45E20BF219BC529E0095C94F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 45E20BEE19BC529E0095C94F /* Build configuration list for PBXProject "CommonMark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45E20BEA19BC529E0095C94F;
+			productRefGroup = 45E20BF419BC529E0095C94F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45E20BF219BC529E0095C94F /* CommonMark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45E20BEF19BC529E0095C94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A7CAF719BD5C0100EAE282 /* CommonMarkInlineList.m in Sources */,
+				45E20D6E19BCFC120095C94F /* CommonMark__INTERNALS.m in Sources */,
+				45E20D4D19BC578F0095C94F /* scanners.c in Sources */,
+				45E20D5D19BC594F0095C94F /* CommonMarkReference.m in Sources */,
+				45E20D4A19BC578F0095C94F /* html.c in Sources */,
+				45E20D5A19BC59450095C94F /* CommonMarkInline.m in Sources */,
+				45E20D4919BC578E0095C94F /* detab.c in Sources */,
+				45E20D4C19BC578F0095C94F /* print.c in Sources */,
+				45E20D6019BC59590095C94F /* CommonMarkSubject.m in Sources */,
+				45E20D4B19BC578F0095C94F /* inlines.c in Sources */,
+				45E20BF719BC529E0095C94F /* main.m in Sources */,
+				45E20D4E19BC578F0095C94F /* utf8.c in Sources */,
+				45E20D7119BCFDFD0095C94F /* CommonMarkError.m in Sources */,
+				45E20D4719BC578E0095C94F /* blocks.c in Sources */,
+				45E20D4819BC578E0095C94F /* bstrlib.c in Sources */,
+				45E20D7719BD07330095C94F /* CommonBlockList.m in Sources */,
+				45E20D6619BC597D0095C94F /* CommonMarkBlock.m in Sources */,
+				45E20D7A19BD07400095C94F /* CommonMarkBlockList.m in Sources */,
+				45E20D7D19BD2A970095C94F /* CommonMark.m in Sources */,
+				45A7CAFD19BD5CD500EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.m in Sources */,
+				45A7CB0019BD625000EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45E20BF819BC529E0095C94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		45E20BF919BC529E0095C94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		45E20BFB19BC529E0095C94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = CommonMark;
+			};
+			name = Debug;
+		};
+		45E20BFC19BC529E0095C94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = CommonMark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45E20BEE19BC529E0095C94F /* Build configuration list for PBXProject "CommonMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E20BF819BC529E0095C94F /* Debug */,
+				45E20BF919BC529E0095C94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45E20BFA19BC529E0095C94F /* Build configuration list for PBXNativeTarget "CommonMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E20BFB19BC529E0095C94F /* Debug */,
+				45E20BFC19BC529E0095C94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45E20BEB19BC529E0095C94F /* Project object */;
+}
