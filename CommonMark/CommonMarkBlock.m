@@ -8,6 +8,7 @@
 
 #import "CommonMarkBlock.h"
 #import "CommonMarkError.h"
+#import "CommonMarkUtilityFunctions.h"
 #import "CommonMark__INTERNALS.h"
 #import "CommonMark__INTERNAL_ENUM_MAPPINGS.h"
 #import "CommonMark__INTERNAL_STRING_UTILITIES.h"
@@ -55,7 +56,7 @@ report_error(int numline, NSString* message, CommonMarkError** error)
 	NSAssert(raw != NULL, @"Raw block pointer shouldn't be NULL.");
 	NSAssert(root == nil || [root isKindOfClass:[CommonMarkBlock class]], @"Supplied root-block must be nil (in case of root itself) or a valid instance.");
 	
-	CommonMarkBlock*	b1	=	[super new];
+	CommonMarkBlock*	b1	=	[super CommonMark____instantiate];
 	b1->_raw				=	raw;
 	b1->_root				=	root;
 	return	b1;
@@ -82,24 +83,6 @@ report_error(int numline, NSString* message, CommonMarkError** error)
 	return	_raw->end_line;
 }
 
-- (NSArray *)allSubblocks
-{
-	CommonMarkBlockList*	l1	=	[self subblocks];
-	CommonMarkBlock*		b1	=	[l1 firstBlock];
-	
-	if (l1 == nil)
-	{
-		return	@[];
-	}
-	
-	NSArray*				a1	=	@[b1];
-	while ((b1 = [b1 nextBlock]) != nil)
-	{
-		a1	=	[a1 arrayByAddingObject:b1];
-	}
-	
-	return	a1;
-}
 - (CommonMarkBlockList *)subblocks
 {
 	CommonMarkBlock*		b0	=	rootblock_of(self);
@@ -135,7 +118,7 @@ report_error(int numline, NSString* message, CommonMarkError** error)
 {
 	return	block_from_raw(_raw->next, rootblock_of(self));
 }
-- (NSString *)HTMLString
+- (NSString *)HTMLRepresentationString
 {
 	bstring	output	=	NULL;
 	bool	ok		=	blocks_to_html(_raw, &output, false) == 0;
@@ -153,7 +136,7 @@ report_error(int numline, NSString* message, CommonMarkError** error)
 }
 - (NSString *)description
 {
-	NSString*	tag2	=	stringify_block_tag([self tag]);
+	NSString*	tag2	=	NSStringFromCommonMarkBlockTag([self tag]);
 	
 	NSString*	inl2	=	[[self inlines] description];
 	NSString*	inl3	=	inl2 == nil ? @"" : add_prefix_to_lines_from_text(inl2, @"  ");

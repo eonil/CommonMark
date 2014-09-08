@@ -20,7 +20,7 @@
 	NSAssert([firstBlock isKindOfClass:[CommonMarkBlock class]], @"Supplied parameter (firstBlock) must be a valid object instance.");
 	NSAssert([lastBlock isKindOfClass:[CommonMarkBlock class]], @"Supplied parameter (lastBlock) must be a valid object instance.");
 	
-	CommonMarkBlockList*	l1	=	[CommonMarkBlockList new];
+	CommonMarkBlockList*	l1	=	[CommonMarkBlockList CommonMark____instantiate];
 	l1->_first					=	firstBlock;
 	l1->_last					=	lastBlock;
 	return	l1;
@@ -48,7 +48,7 @@
 - (NSString *)description
 {
 	NSArray*	s1	=	descriptions_of_items_in([self allBlocks]);
-	NSArray*	s2	=	add_prefix_to_lines(s1, @"+ ");
+	NSArray*	s2	=	add_prefix_to_lines(s1, @"  ");
 	NSString*	s3	=	[s2 componentsJoinedByString:@"\n"];
 	return		s3	;
 }

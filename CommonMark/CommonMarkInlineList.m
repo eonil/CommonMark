@@ -33,7 +33,7 @@
 - (NSString *)description
 {
 	NSArray*	s1	=	descriptions_of_items_in([self allInlines]);
-	NSArray*	s2	=	add_prefix_to_lines(s1, @"- ");
+	NSArray*	s2	=	add_prefix_to_lines(s1, @"  ");
 	NSString*	s3	=	[s2 componentsJoinedByString:@"\n"];
 	return		s3	;
 }
@@ -41,7 +41,7 @@
 {
 	NSAssert([first isKindOfClass:[CommonMarkInline class]], @"Supplied first inline should be a valid instance.");
 	
-	CommonMarkInlineList*	l1	=	[super new];
+	CommonMarkInlineList*	l1	=	[super CommonMark____instantiate];
 	l1->_first					=	first;
 	return	l1;
 }

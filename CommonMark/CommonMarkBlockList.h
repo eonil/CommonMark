@@ -6,14 +6,17 @@
 //  Copyright (c) 2014 Eonil. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "CommonMarkProxyObject.h"
 
 @class		CommonMarkBlock;
 
 
 
-
-@interface	CommonMarkBlockList : NSObject
+/*!
+ @note
+ Blocks list is a doubly linked list.
+ */
+@interface	CommonMarkBlockList : CommonMarkProxyObject
 - (CommonMarkBlock*)firstBlock;
 - (CommonMarkBlock*)lastBlock;
 - (NSArray*)allBlocks;

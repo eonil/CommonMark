@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "CommonMarkInline.h"
+#import "CommonMarkInlineList.h"
+#import "CommonMarkInlineLinkage.h"
 #import "CommonMarkReference.h"
 #import "CommonMarkSubject.h"
 #import "CommonMarkBlock.h"

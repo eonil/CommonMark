@@ -6,12 +6,16 @@
 //  Copyright (c) 2014 Eonil. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "CommonMarkProxyObject.h"
 
 
 @class		CommonMarkInline;
 
-@interface	CommonMarkInlineList : NSObject
+/*!
+ @note
+ Inline list is a singly linked forward list. (ftont to back)
+ */
+@interface	CommonMarkInlineList : CommonMarkProxyObject
 - (CommonMarkInline*)firstInline;
 - (NSArray*)allInlines;
 @end

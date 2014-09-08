@@ -12,6 +12,11 @@
 #import "CommonMarkBlock.h"
 #import "CommonMarkInline.h"
 #import "CommonMarkInlineList.h"
+#import "CommonMarkInlineLinkage.h"
+
+@interface	CommonMarkProxyObject ()
++ (instancetype)CommonMark____instantiate;
+@end
 
 @interface	CommonMarkBlockList ()
 + (instancetype)CommonMark____instantiateWithFirstBlock:(CommonMarkBlock*)firstBlock andLastBlock:(CommonMarkBlock*)lastBlock;
@@ -33,6 +38,10 @@
 
 @interface	CommonMarkInlineList ()
 + (instancetype)CommonMark____instantiateWithFirstInline:(CommonMarkInline*)first;
+@end
+
+@interface	CommonMarkInlineLinkage ()
++ (instancetype)CommonMark____instantiateWithRawLabel:(struct Inline*)rawLabel rawURL:(bstring)rawURL rawTitle:(bstring)rawTitle;
 @end
 
 

@@ -10,47 +10,6 @@
 #import "stmd/stmd.h"
 #import "CommonMark__INTERNALS.h"
 
-static inline NSString*
-stringify_block_tag(CommonMarkBlockTag const tag)
-{
-	switch (tag)
-	{
-		case	CommonMarkBlockTagDocument:			return	@"Document";
-		case	CommonMarkBlockTagBlockQuote:		return	@"BlockQuote";
-		case	CommonMarkBlockTagList:				return	@"List";
-		case	CommonMarkBlockTagListItem:			return	@"ListItem";
-		case	CommonMarkBlockTagFencedCode:		return	@"FencedCode";
-		case	CommonMarkBlockTagIndentedCode:		return	@"IndentedCode";
-		case	CommonMarkBlockTagHTMLBlock:		return	@"HTMLBlock";
-		case	CommonMarkBlockTagParagraph:		return	@"Paragraph";
-		case	CommonMarkBlockTagATXHeader:		return	@"ATXHeader";
-		case	CommonMarkBlockTagSetEXTHeader:		return	@"SetEXTHeader";
-		case	CommonMarkBlockTagHRule:			return	@"HRule";
-		case	CommonMarkBlockTagReferenceDef:		return	@"ReferenceDef";
-	}
-	fail_by_program_bug();
-}
-
-static inline NSString*
-stringify_inline_tag(CommonMarkInlineTag const tag)
-{
-	switch (tag)
-	{
-		case	CommonMarkInlineTagString:			return	@"CommonMarkInlineTagString";
-		case	CommonMarkInlineTagSoftbreak:		return	@"CommonMarkInlineTagSoftbreak";
-		case	CommonMarkInlineTagLinebreak:		return	@"CommonMarkInlineTagLinebreak";
-		case	CommonMarkInlineTagCode:			return	@"CommonMarkInlineTagCode";
-		case	CommonMarkInlineTagRawHTML:			return	@"CommonMarkInlineTagRawHTML";
-		case	CommonMarkInlineTagEntity:			return	@"CommonMarkInlineTagEntity";
-		case	CommonMarkInlineTagEmphasis:		return	@"CommonMarkInlineTagEmphasis";
-		case	CommonMarkInlineTagStrong:			return	@"CommonMarkInlineTagStrong";
-		case	CommonMarkInlineTagLink:			return	@"CommonMarkInlineTagLink";
-		case	CommonMarkInlineTagImage:			return	@"CommonMarkInlineTagImage";
-	}
-	fail_by_program_bug();
-}
-
-
 
 
 

@@ -7,6 +7,7 @@
 //
 
 #import "CommonMarkInline.h"
+#import "CommonMarkUtilityFunctions.h"
 #import "CommonMark__INTERNALS.h"
 #import "CommonMark__INTERNAL_ENUM_MAPPINGS.h"
 #import "CommonMark__INTERNAL_STRING_UTILITIES.h"
@@ -26,7 +27,7 @@
 {
 	NSAssert(raw != NULL, @"Supplied raw pointer (inl*) shouldn't be NULL.");
 	
-	CommonMarkInline*	n1	=	[super new];
+	CommonMarkInline*	n1	=	[super CommonMark____instantiate];
 	n1->_raw				=	raw;
 	return	n1;
 }
@@ -104,11 +105,11 @@ has_inlines(inl* raw)
 	}
 	return	nil;
 }
-- (id)linkage
+- (CommonMarkInlineLinkage *)linkage
 {
 	if (has_linkable(_raw))
 	{
-		return	nil;	///@todo
+		return	[CommonMarkInlineLinkage CommonMark____instantiateWithRawLabel:_raw->content.linkable.label rawURL:_raw->content.linkable.url rawTitle:_raw->content.linkable.title];
 	}
 	return	nil;
 }
@@ -125,7 +126,7 @@ has_inlines(inl* raw)
 
 - (NSString *)description
 {
-	NSString*	s1	=	stringify_inline_tag([self tag]);
+	NSString*	s1	=	NSStringFromCommonMarkInlineTag([self tag]);
 	NSString*	c1	=	[[self literal] description];
 	NSString*	c2	=	[[self linkage] description];
 	NSString*	c3	=	[[self subinlines] description];

@@ -7,30 +7,104 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45A7CAF719BD5C0100EAE282 /* CommonMarkInlineList.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A7CAF619BD5C0100EAE282 /* CommonMarkInlineList.m */; };
-		45A7CAFD19BD5CD500EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A7CAFC19BD5CD500EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.m */; };
-		45A7CB0019BD625000EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A7CAFF19BD625000EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.m */; };
+		45A7CB1519BD725100EAE282 /* CommonMark___OSX___Static_FrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A7CB1419BD725100EAE282 /* CommonMark___OSX___Static_FrameworkTests.m */; };
+		45A7CB3019BD726700EAE282 /* CommonMark___iOS___Static_FrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A7CB2F19BD726700EAE282 /* CommonMark___iOS___Static_FrameworkTests.m */; };
+		45A7CB3719BD727700EAE282 /* CommonMark.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E20D7B19BD2A970095C94F /* CommonMark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A7CB3819BD727800EAE282 /* CommonMark.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E20D7B19BD2A970095C94F /* CommonMark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A7CB3919BD728100EAE282 /* CommonMarkInline.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E20D5819BC59450095C94F /* CommonMarkInline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A7CB3A19BD728100EAE282 /* CommonMarkInlineList.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A7CAF519BD5C0100EAE282 /* CommonMarkInlineList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A7CB3B19BD728100EAE282 /* CommonMarkReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E20D5B19BC594F0095C94F /* CommonMarkReference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A7CB3C19BD728100EAE282 /* CommonMarkSubject.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E20D5E19BC59590095C94F /* CommonMarkSubject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A7CB3D19BD728100EAE282 /* CommonMarkBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E20D6419BC597D0095C94F /* CommonMarkBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A7CB3E19BD728100EAE282 /* CommonMarkBlockList.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E20D7819BD07400095C94F /* CommonMarkBlockList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A7CB4019BD728100EAE282 /* CommonMarkError.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E20D6F19BCFDFD0095C94F /* CommonMarkError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A7CB4119BD728100EAE282 /* CommonMarkInline.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E20D5819BC59450095C94F /* CommonMarkInline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A7CB4219BD728100EAE282 /* CommonMarkInlineList.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A7CAF519BD5C0100EAE282 /* CommonMarkInlineList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A7CB4319BD728100EAE282 /* CommonMarkReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E20D5B19BC594F0095C94F /* CommonMarkReference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A7CB4419BD728100EAE282 /* CommonMarkSubject.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E20D5E19BC59590095C94F /* CommonMarkSubject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A7CB4519BD728100EAE282 /* CommonMarkBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E20D6419BC597D0095C94F /* CommonMarkBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A7CB4619BD728100EAE282 /* CommonMarkBlockList.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E20D7819BD07400095C94F /* CommonMarkBlockList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A7CB4819BD728100EAE282 /* CommonMarkError.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E20D6F19BCFDFD0095C94F /* CommonMarkError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A7CB4919BD728700EAE282 /* CommonMark__INTERNALS.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E20D6C19BCFC120095C94F /* CommonMark__INTERNALS.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		45A7CB4A19BD728700EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A7CAFB19BD5CD500EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		45A7CB4B19BD728700EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A7CAFE19BD625000EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		45A7CB4C19BD728700EAE282 /* CommonMark__INTERNALS.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E20D6C19BCFC120095C94F /* CommonMark__INTERNALS.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		45A7CB4D19BD728700EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A7CAFB19BD5CD500EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		45A7CB4E19BD728700EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A7CAFE19BD625000EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		45A7CB6119BD737D00EAE282 /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D3B19BC578E0095C94F /* blocks.c */; };
+		45A7CB6219BD737D00EAE282 /* bstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D3C19BC578E0095C94F /* bstrlib.c */; };
+		45A7CB6419BD737D00EAE282 /* detab.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D3E19BC578E0095C94F /* detab.c */; };
+		45A7CB6519BD737D00EAE282 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D3F19BC578E0095C94F /* html.c */; };
+		45A7CB6619BD737D00EAE282 /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D4019BC578E0095C94F /* inlines.c */; };
+		45A7CB6719BD737D00EAE282 /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D4119BC578E0095C94F /* print.c */; };
+		45A7CB6819BD737D00EAE282 /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D4219BC578E0095C94F /* scanners.c */; };
+		45A7CB6919BD737D00EAE282 /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D4519BC578E0095C94F /* utf8.c */; };
+		45A7CB8219BD73AE00EAE282 /* libCommonMark.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7CB5C19BD735700EAE282 /* libCommonMark.a */; };
+		45A7CB8319BD73B200EAE282 /* libCommonMark.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7CB6E19BD738C00EAE282 /* libCommonMark.a */; };
+		45A7CB8419BD73C200EAE282 /* CommonMark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7CB0619BD725100EAE282 /* CommonMark.framework */; };
+		45BCE43E19BD7442008F39C0 /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D3B19BC578E0095C94F /* blocks.c */; };
+		45BCE43F19BD7442008F39C0 /* bstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D3C19BC578E0095C94F /* bstrlib.c */; };
+		45BCE44019BD7442008F39C0 /* detab.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D3E19BC578E0095C94F /* detab.c */; };
+		45BCE44119BD7442008F39C0 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D3F19BC578E0095C94F /* html.c */; };
+		45BCE44219BD7442008F39C0 /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D4019BC578E0095C94F /* inlines.c */; };
+		45BCE44319BD7442008F39C0 /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D4119BC578E0095C94F /* print.c */; };
+		45BCE44419BD7442008F39C0 /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D4219BC578E0095C94F /* scanners.c */; };
+		45BCE44519BD7442008F39C0 /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D4519BC578E0095C94F /* utf8.c */; };
+		45BCE44B19BD7A3F008F39C0 /* CommonMarkUtilityFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 45BCE44619BD7982008F39C0 /* CommonMarkUtilityFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45BCE44C19BD7A3F008F39C0 /* CommonMarkUtilityFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 45BCE44619BD7982008F39C0 /* CommonMarkUtilityFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45BCE44D19BD7A4C008F39C0 /* LICENSE.CommonMark in Resources */ = {isa = PBXBuildFile; fileRef = 45E20D5419BC581A0095C94F /* LICENSE.CommonMark */; };
+		45BCE44E19BD7A4C008F39C0 /* license.bstrlib.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45E20D6719BCEEFE0095C94F /* license.bstrlib.txt */; };
+		45BCE44F19BD7A4C008F39C0 /* license.uthash.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45E20D6819BCEEFE0095C94F /* license.uthash.txt */; };
+		45BCE45019BD7A4D008F39C0 /* LICENSE.CommonMark in Resources */ = {isa = PBXBuildFile; fileRef = 45E20D5419BC581A0095C94F /* LICENSE.CommonMark */; };
+		45BCE45119BD7A4D008F39C0 /* license.bstrlib.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45E20D6719BCEEFE0095C94F /* license.bstrlib.txt */; };
+		45BCE45219BD7A4D008F39C0 /* license.uthash.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45E20D6819BCEEFE0095C94F /* license.uthash.txt */; };
+		45BCE45319BD7A50008F39C0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 45E20D5219BC57CF0095C94F /* README.md */; };
+		45BCE45519BD7A51008F39C0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D5219BC57CF0095C94F /* README.md */; };
+		45BCE45919BD7DA0008F39C0 /* CommonMarkInlineLinkage.h in Headers */ = {isa = PBXBuildFile; fileRef = 45BCE45619BD7D9D008F39C0 /* CommonMarkInlineLinkage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45BCE45A19BD7DA0008F39C0 /* CommonMarkInlineLinkage.h in Headers */ = {isa = PBXBuildFile; fileRef = 45BCE45619BD7D9D008F39C0 /* CommonMarkInlineLinkage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45BCE45D19BD7DA7008F39C0 /* CommonMarkInlineLinkage.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BCE45719BD7D9D008F39C0 /* CommonMarkInlineLinkage.m */; };
+		45BCE45E19BD7DA8008F39C0 /* CommonMarkInlineLinkage.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BCE45719BD7D9D008F39C0 /* CommonMarkInlineLinkage.m */; };
+		45BCE45F19BD7DAC008F39C0 /* CommonMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D7C19BD2A970095C94F /* CommonMark.m */; };
+		45BCE46019BD7DAD008F39C0 /* CommonMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D7C19BD2A970095C94F /* CommonMark.m */; };
+		45BCE46219BD7DB1008F39C0 /* CommonMark__INTERNALS.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D6D19BCFC120095C94F /* CommonMark__INTERNALS.m */; };
+		45BCE46319BD7DB1008F39C0 /* CommonMark__INTERNALS.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D6D19BCFC120095C94F /* CommonMark__INTERNALS.m */; };
+		45BCE48019BD7DBF008F39C0 /* CommonMark__INTERNAL_STRING_UTILITIES.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A7CAFC19BD5CD500EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.m */; };
+		45BCE48119BD7DBF008F39C0 /* CommonMark__INTERNAL_ENUM_MAPPINGS.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A7CAFF19BD625000EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.m */; };
+		45BCE48219BD7DBF008F39C0 /* CommonMarkInline.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D5919BC59450095C94F /* CommonMarkInline.m */; };
+		45BCE48319BD7DBF008F39C0 /* CommonMarkInlineList.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A7CAF619BD5C0100EAE282 /* CommonMarkInlineList.m */; };
+		45BCE48419BD7DBF008F39C0 /* CommonMarkReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D5C19BC594F0095C94F /* CommonMarkReference.m */; };
+		45BCE48519BD7DBF008F39C0 /* CommonMarkSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D5F19BC59590095C94F /* CommonMarkSubject.m */; };
+		45BCE48619BD7DBF008F39C0 /* CommonMarkBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D6519BC597D0095C94F /* CommonMarkBlock.m */; };
+		45BCE48719BD7DBF008F39C0 /* CommonMarkBlockList.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D7919BD07400095C94F /* CommonMarkBlockList.m */; };
+		45BCE48819BD7DBF008F39C0 /* CommonMarkError.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D7019BCFDFD0095C94F /* CommonMarkError.m */; };
+		45BCE48919BD7DBF008F39C0 /* CommonMarkUtilityFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BCE44719BD7982008F39C0 /* CommonMarkUtilityFunctions.m */; };
+		45BCE48A19BD7DC0008F39C0 /* CommonMark__INTERNAL_STRING_UTILITIES.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A7CAFC19BD5CD500EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.m */; };
+		45BCE48B19BD7DC0008F39C0 /* CommonMark__INTERNAL_ENUM_MAPPINGS.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A7CAFF19BD625000EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.m */; };
+		45BCE48C19BD7DC0008F39C0 /* CommonMarkInline.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D5919BC59450095C94F /* CommonMarkInline.m */; };
+		45BCE48D19BD7DC0008F39C0 /* CommonMarkInlineList.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A7CAF619BD5C0100EAE282 /* CommonMarkInlineList.m */; };
+		45BCE48E19BD7DC0008F39C0 /* CommonMarkReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D5C19BC594F0095C94F /* CommonMarkReference.m */; };
+		45BCE48F19BD7DC0008F39C0 /* CommonMarkSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D5F19BC59590095C94F /* CommonMarkSubject.m */; };
+		45BCE49019BD7DC0008F39C0 /* CommonMarkBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D6519BC597D0095C94F /* CommonMarkBlock.m */; };
+		45BCE49119BD7DC0008F39C0 /* CommonMarkBlockList.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D7919BD07400095C94F /* CommonMarkBlockList.m */; };
+		45BCE49219BD7DC0008F39C0 /* CommonMarkError.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D7019BCFDFD0095C94F /* CommonMarkError.m */; };
+		45BCE49319BD7DC0008F39C0 /* CommonMarkUtilityFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BCE44719BD7982008F39C0 /* CommonMarkUtilityFunctions.m */; };
+		45BCE49619BD813E008F39C0 /* CommonMarkProxyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BCE49519BD813E008F39C0 /* CommonMarkProxyObject.m */; };
+		45BCE4A419BD9233008F39C0 /* CommonMarkBlockListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BCE4A319BD9233008F39C0 /* CommonMarkBlockListData.m */; };
+		45BCE4A719BD9240008F39C0 /* CommonMarkBlockFencedCodeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BCE4A619BD9240008F39C0 /* CommonMarkBlockFencedCodeData.m */; };
+		45BCE4AA19BD924F008F39C0 /* CommonMarkBlockReferenceMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BCE4A919BD924F008F39C0 /* CommonMarkBlockReferenceMap.m */; };
 		45E20BF719BC529E0095C94F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20BF619BC529E0095C94F /* main.m */; };
-		45E20D4719BC578E0095C94F /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D3B19BC578E0095C94F /* blocks.c */; };
-		45E20D4819BC578E0095C94F /* bstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D3C19BC578E0095C94F /* bstrlib.c */; };
-		45E20D4919BC578E0095C94F /* detab.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D3E19BC578E0095C94F /* detab.c */; };
-		45E20D4A19BC578F0095C94F /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D3F19BC578E0095C94F /* html.c */; };
-		45E20D4B19BC578F0095C94F /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D4019BC578E0095C94F /* inlines.c */; };
-		45E20D4C19BC578F0095C94F /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D4119BC578E0095C94F /* print.c */; };
-		45E20D4D19BC578F0095C94F /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D4219BC578E0095C94F /* scanners.c */; };
-		45E20D4E19BC578F0095C94F /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D4519BC578E0095C94F /* utf8.c */; };
-		45E20D5A19BC59450095C94F /* CommonMarkInline.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D5919BC59450095C94F /* CommonMarkInline.m */; };
-		45E20D5D19BC594F0095C94F /* CommonMarkReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D5C19BC594F0095C94F /* CommonMarkReference.m */; };
-		45E20D6019BC59590095C94F /* CommonMarkSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D5F19BC59590095C94F /* CommonMarkSubject.m */; };
-		45E20D6619BC597D0095C94F /* CommonMarkBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D6519BC597D0095C94F /* CommonMarkBlock.m */; };
-		45E20D6E19BCFC120095C94F /* CommonMark__INTERNALS.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D6D19BCFC120095C94F /* CommonMark__INTERNALS.m */; };
-		45E20D7119BCFDFD0095C94F /* CommonMarkError.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D7019BCFDFD0095C94F /* CommonMarkError.m */; };
-		45E20D7719BD07330095C94F /* CommonBlockList.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D7619BD07330095C94F /* CommonBlockList.m */; };
-		45E20D7A19BD07400095C94F /* CommonMarkBlockList.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D7919BD07400095C94F /* CommonMarkBlockList.m */; };
-		45E20D7D19BD2A970095C94F /* CommonMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D7C19BD2A970095C94F /* CommonMark.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		45A7CB6C19BD738C00EAE282 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		45E20BF119BC529E0095C94F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -49,6 +123,32 @@
 		45A7CAFC19BD5CD500EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMark__INTERNAL_STRING_UTILITIES.m; sourceTree = "<group>"; };
 		45A7CAFE19BD625000EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMark__INTERNAL_ENUM_MAPPINGS.h; sourceTree = "<group>"; };
 		45A7CAFF19BD625000EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMark__INTERNAL_ENUM_MAPPINGS.m; sourceTree = "<group>"; };
+		45A7CB0619BD725100EAE282 /* CommonMark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonMark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A7CB0919BD725100EAE282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A7CB1019BD725100EAE282 /* CommonMark - OSX - Static FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CommonMark - OSX - Static FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A7CB1319BD725100EAE282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A7CB1419BD725100EAE282 /* CommonMark___OSX___Static_FrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CommonMark___OSX___Static_FrameworkTests.m"; sourceTree = "<group>"; };
+		45A7CB2119BD726700EAE282 /* CommonMark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonMark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A7CB2419BD726700EAE282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A7CB2B19BD726700EAE282 /* CommonMark - iOS - Static FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CommonMark - iOS - Static FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A7CB2E19BD726700EAE282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A7CB2F19BD726700EAE282 /* CommonMark___iOS___Static_FrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CommonMark___iOS___Static_FrameworkTests.m"; sourceTree = "<group>"; };
+		45A7CB4F19BD730C00EAE282 /* All.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = All.xcconfig; sourceTree = "<group>"; };
+		45A7CB5C19BD735700EAE282 /* libCommonMark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommonMark.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A7CB6E19BD738C00EAE282 /* libCommonMark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommonMark.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A7CB7B19BD738C00EAE282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45BCE44619BD7982008F39C0 /* CommonMarkUtilityFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkUtilityFunctions.h; sourceTree = "<group>"; };
+		45BCE44719BD7982008F39C0 /* CommonMarkUtilityFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMarkUtilityFunctions.m; sourceTree = "<group>"; };
+		45BCE45619BD7D9D008F39C0 /* CommonMarkInlineLinkage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkInlineLinkage.h; sourceTree = "<group>"; };
+		45BCE45719BD7D9D008F39C0 /* CommonMarkInlineLinkage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMarkInlineLinkage.m; sourceTree = "<group>"; };
+		45BCE49419BD813E008F39C0 /* CommonMarkProxyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkProxyObject.h; sourceTree = "<group>"; };
+		45BCE49519BD813E008F39C0 /* CommonMarkProxyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMarkProxyObject.m; sourceTree = "<group>"; };
+		45BCE4A219BD9233008F39C0 /* CommonMarkBlockListData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkBlockListData.h; sourceTree = "<group>"; };
+		45BCE4A319BD9233008F39C0 /* CommonMarkBlockListData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMarkBlockListData.m; sourceTree = "<group>"; };
+		45BCE4A519BD9240008F39C0 /* CommonMarkBlockFencedCodeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkBlockFencedCodeData.h; sourceTree = "<group>"; };
+		45BCE4A619BD9240008F39C0 /* CommonMarkBlockFencedCodeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMarkBlockFencedCodeData.m; sourceTree = "<group>"; };
+		45BCE4A819BD924F008F39C0 /* CommonMarkBlockReferenceMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkBlockReferenceMap.h; sourceTree = "<group>"; };
+		45BCE4A919BD924F008F39C0 /* CommonMarkBlockReferenceMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMarkBlockReferenceMap.m; sourceTree = "<group>"; };
 		45E20BF319BC529E0095C94F /* CommonMark */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommonMark; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E20BF619BC529E0095C94F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		45E20D3B19BC578E0095C94F /* blocks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blocks.c; sourceTree = "<group>"; };
@@ -67,7 +167,7 @@
 		45E20D5019BC57B20095C94F /* debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
 		45E20D5119BC57C40095C94F /* case_fold_switch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = case_fold_switch.c; sourceTree = "<group>"; };
 		45E20D5219BC57CF0095C94F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		45E20D5419BC581A0095C94F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		45E20D5419BC581A0095C94F /* LICENSE.CommonMark */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.CommonMark; sourceTree = "<group>"; };
 		45E20D5819BC59450095C94F /* CommonMarkInline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkInline.h; sourceTree = "<group>"; };
 		45E20D5919BC59450095C94F /* CommonMarkInline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMarkInline.m; sourceTree = "<group>"; };
 		45E20D5B19BC594F0095C94F /* CommonMarkReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkReference.h; sourceTree = "<group>"; };
@@ -82,8 +182,6 @@
 		45E20D6D19BCFC120095C94F /* CommonMark__INTERNALS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMark__INTERNALS.m; sourceTree = "<group>"; };
 		45E20D6F19BCFDFD0095C94F /* CommonMarkError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkError.h; sourceTree = "<group>"; };
 		45E20D7019BCFDFD0095C94F /* CommonMarkError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMarkError.m; sourceTree = "<group>"; };
-		45E20D7519BD07330095C94F /* CommonBlockList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonBlockList.h; sourceTree = "<group>"; };
-		45E20D7619BD07330095C94F /* CommonBlockList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonBlockList.m; sourceTree = "<group>"; };
 		45E20D7819BD07400095C94F /* CommonMarkBlockList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkBlockList.h; sourceTree = "<group>"; };
 		45E20D7919BD07400095C94F /* CommonMarkBlockList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMarkBlockList.m; sourceTree = "<group>"; };
 		45E20D7B19BD2A970095C94F /* CommonMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMark.h; sourceTree = "<group>"; };
@@ -91,22 +189,163 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		45E20BF019BC529E0095C94F /* Frameworks */ = {
+		45A7CB0219BD725100EAE282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A7CB8219BD73AE00EAE282 /* libCommonMark.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7CB0D19BD725100EAE282 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		45A7CB1D19BD726600EAE282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A7CB8319BD73B200EAE282 /* libCommonMark.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7CB2819BD726700EAE282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7CB5919BD735700EAE282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7CB6B19BD738C00EAE282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E20BF019BC529E0095C94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A7CB8419BD73C200EAE282 /* CommonMark.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45A7CB0719BD725100EAE282 /* CommonMark - OSX - Static Framework */ = {
+			isa = PBXGroup;
+			children = (
+				45A7CB0819BD725100EAE282 /* Supporting Files */,
+			);
+			path = "CommonMark - OSX - Static Framework";
+			sourceTree = "<group>";
+		};
+		45A7CB0819BD725100EAE282 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45A7CB0919BD725100EAE282 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45A7CB1119BD725100EAE282 /* CommonMark - OSX - Static FrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				45A7CB1419BD725100EAE282 /* CommonMark___OSX___Static_FrameworkTests.m */,
+				45A7CB1219BD725100EAE282 /* Supporting Files */,
+			);
+			path = "CommonMark - OSX - Static FrameworkTests";
+			sourceTree = "<group>";
+		};
+		45A7CB1219BD725100EAE282 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45A7CB1319BD725100EAE282 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45A7CB2219BD726700EAE282 /* CommonMark - iOS - Static Framework */ = {
+			isa = PBXGroup;
+			children = (
+				45A7CB2319BD726700EAE282 /* Supporting Files */,
+			);
+			path = "CommonMark - iOS - Static Framework";
+			sourceTree = "<group>";
+		};
+		45A7CB2319BD726700EAE282 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45A7CB2419BD726700EAE282 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45A7CB2C19BD726700EAE282 /* CommonMark - iOS - Static FrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				45A7CB2F19BD726700EAE282 /* CommonMark___iOS___Static_FrameworkTests.m */,
+				45A7CB2D19BD726700EAE282 /* Supporting Files */,
+			);
+			path = "CommonMark - iOS - Static FrameworkTests";
+			sourceTree = "<group>";
+		};
+		45A7CB2D19BD726700EAE282 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45A7CB2E19BD726700EAE282 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45A7CB6F19BD738C00EAE282 /* CommonMarkC - iOS - Static Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "CommonMarkC - iOS - Static Library";
+			sourceTree = "<group>";
+		};
+		45A7CB7919BD738C00EAE282 /* CommonMarkC - iOS - Static LibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				45A7CB7A19BD738C00EAE282 /* Supporting Files */,
+			);
+			path = "CommonMarkC - iOS - Static LibraryTests";
+			sourceTree = "<group>";
+		};
+		45A7CB7A19BD738C00EAE282 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45A7CB7B19BD738C00EAE282 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		45E20BEA19BC529E0095C94F = {
 			isa = PBXGroup;
 			children = (
 				45E20D5219BC57CF0095C94F /* README.md */,
+				45A7CB4F19BD730C00EAE282 /* All.xcconfig */,
 				45E20BFD19BC535F0095C94F /* Dependencies */,
-				45E20BF519BC529E0095C94F /* Markdown */,
+				45E20BF519BC529E0095C94F /* CommonMark */,
+				45A7CB0719BD725100EAE282 /* CommonMark - OSX - Static Framework */,
+				45A7CB1119BD725100EAE282 /* CommonMark - OSX - Static FrameworkTests */,
+				45A7CB2219BD726700EAE282 /* CommonMark - iOS - Static Framework */,
+				45A7CB2C19BD726700EAE282 /* CommonMark - iOS - Static FrameworkTests */,
+				45A7CB6F19BD738C00EAE282 /* CommonMarkC - iOS - Static Library */,
+				45A7CB7919BD738C00EAE282 /* CommonMarkC - iOS - Static LibraryTests */,
 				45E20BF419BC529E0095C94F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,11 +354,17 @@
 			isa = PBXGroup;
 			children = (
 				45E20BF319BC529E0095C94F /* CommonMark */,
+				45A7CB0619BD725100EAE282 /* CommonMark.framework */,
+				45A7CB1019BD725100EAE282 /* CommonMark - OSX - Static FrameworkTests.xctest */,
+				45A7CB2119BD726700EAE282 /* CommonMark.framework */,
+				45A7CB2B19BD726700EAE282 /* CommonMark - iOS - Static FrameworkTests.xctest */,
+				45A7CB5C19BD735700EAE282 /* libCommonMark.a */,
+				45A7CB6E19BD738C00EAE282 /* libCommonMark.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		45E20BF519BC529E0095C94F /* Markdown */ = {
+		45E20BF519BC529E0095C94F /* CommonMark */ = {
 			isa = PBXGroup;
 			children = (
 				45E20CCF19BC544A0095C94F /* stmd */,
@@ -132,10 +377,14 @@
 				45A7CAFC19BD5CD500EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.m */,
 				45A7CAFE19BD625000EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.h */,
 				45A7CAFF19BD625000EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.m */,
+				45BCE49419BD813E008F39C0 /* CommonMarkProxyObject.h */,
+				45BCE49519BD813E008F39C0 /* CommonMarkProxyObject.m */,
 				45E20D5819BC59450095C94F /* CommonMarkInline.h */,
 				45E20D5919BC59450095C94F /* CommonMarkInline.m */,
 				45A7CAF519BD5C0100EAE282 /* CommonMarkInlineList.h */,
 				45A7CAF619BD5C0100EAE282 /* CommonMarkInlineList.m */,
+				45BCE45619BD7D9D008F39C0 /* CommonMarkInlineLinkage.h */,
+				45BCE45719BD7D9D008F39C0 /* CommonMarkInlineLinkage.m */,
 				45E20D5B19BC594F0095C94F /* CommonMarkReference.h */,
 				45E20D5C19BC594F0095C94F /* CommonMarkReference.m */,
 				45E20D5E19BC59590095C94F /* CommonMarkSubject.h */,
@@ -144,12 +393,17 @@
 				45E20D6519BC597D0095C94F /* CommonMarkBlock.m */,
 				45E20D7819BD07400095C94F /* CommonMarkBlockList.h */,
 				45E20D7919BD07400095C94F /* CommonMarkBlockList.m */,
-				45E20D7519BD07330095C94F /* CommonBlockList.h */,
-				45E20D7619BD07330095C94F /* CommonBlockList.m */,
+				45BCE4A219BD9233008F39C0 /* CommonMarkBlockListData.h */,
+				45BCE4A319BD9233008F39C0 /* CommonMarkBlockListData.m */,
+				45BCE4A519BD9240008F39C0 /* CommonMarkBlockFencedCodeData.h */,
+				45BCE4A619BD9240008F39C0 /* CommonMarkBlockFencedCodeData.m */,
+				45BCE4A819BD924F008F39C0 /* CommonMarkBlockReferenceMap.h */,
+				45BCE4A919BD924F008F39C0 /* CommonMarkBlockReferenceMap.m */,
 				45E20D6F19BCFDFD0095C94F /* CommonMarkError.h */,
 				45E20D7019BCFDFD0095C94F /* CommonMarkError.m */,
+				45BCE44619BD7982008F39C0 /* CommonMarkUtilityFunctions.h */,
+				45BCE44719BD7982008F39C0 /* CommonMarkUtilityFunctions.m */,
 			);
-			name = Markdown;
 			path = CommonMark;
 			sourceTree = "<group>";
 		};
@@ -163,7 +417,7 @@
 		45E20CCF19BC544A0095C94F /* stmd */ = {
 			isa = PBXGroup;
 			children = (
-				45E20D5419BC581A0095C94F /* LICENSE */,
+				45E20D5419BC581A0095C94F /* LICENSE.CommonMark */,
 				45E20D6719BCEEFE0095C94F /* license.bstrlib.txt */,
 				45E20D6819BCEEFE0095C94F /* license.uthash.txt */,
 				45E20D3B19BC578E0095C94F /* blocks.c */,
@@ -187,7 +441,161 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		45A7CB0319BD725100EAE282 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A7CB3719BD727700EAE282 /* CommonMark.h in Headers */,
+				45A7CB4A19BD728700EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.h in Headers */,
+				45A7CB3B19BD728100EAE282 /* CommonMarkReference.h in Headers */,
+				45BCE44B19BD7A3F008F39C0 /* CommonMarkUtilityFunctions.h in Headers */,
+				45A7CB3D19BD728100EAE282 /* CommonMarkBlock.h in Headers */,
+				45A7CB4919BD728700EAE282 /* CommonMark__INTERNALS.h in Headers */,
+				45A7CB4019BD728100EAE282 /* CommonMarkError.h in Headers */,
+				45A7CB4B19BD728700EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.h in Headers */,
+				45BCE45919BD7DA0008F39C0 /* CommonMarkInlineLinkage.h in Headers */,
+				45A7CB3C19BD728100EAE282 /* CommonMarkSubject.h in Headers */,
+				45A7CB3919BD728100EAE282 /* CommonMarkInline.h in Headers */,
+				45A7CB3E19BD728100EAE282 /* CommonMarkBlockList.h in Headers */,
+				45A7CB3A19BD728100EAE282 /* CommonMarkInlineList.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7CB1E19BD726600EAE282 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A7CB3819BD727800EAE282 /* CommonMark.h in Headers */,
+				45A7CB4D19BD728700EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.h in Headers */,
+				45A7CB4319BD728100EAE282 /* CommonMarkReference.h in Headers */,
+				45BCE44C19BD7A3F008F39C0 /* CommonMarkUtilityFunctions.h in Headers */,
+				45A7CB4519BD728100EAE282 /* CommonMarkBlock.h in Headers */,
+				45A7CB4C19BD728700EAE282 /* CommonMark__INTERNALS.h in Headers */,
+				45A7CB4819BD728100EAE282 /* CommonMarkError.h in Headers */,
+				45A7CB4E19BD728700EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.h in Headers */,
+				45BCE45A19BD7DA0008F39C0 /* CommonMarkInlineLinkage.h in Headers */,
+				45A7CB4419BD728100EAE282 /* CommonMarkSubject.h in Headers */,
+				45A7CB4119BD728100EAE282 /* CommonMarkInline.h in Headers */,
+				45A7CB4619BD728100EAE282 /* CommonMarkBlockList.h in Headers */,
+				45A7CB4219BD728100EAE282 /* CommonMarkInlineList.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7CB5A19BD735700EAE282 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		45A7CB0519BD725100EAE282 /* CommonMark - OSX - Static Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A7CB1619BD725100EAE282 /* Build configuration list for PBXNativeTarget "CommonMark - OSX - Static Framework" */;
+			buildPhases = (
+				45A7CB0119BD725100EAE282 /* Sources */,
+				45A7CB0219BD725100EAE282 /* Frameworks */,
+				45A7CB0319BD725100EAE282 /* Headers */,
+				45A7CB0419BD725100EAE282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CommonMark - OSX - Static Framework";
+			productName = "CommonMark - OSX - Static Framework";
+			productReference = 45A7CB0619BD725100EAE282 /* CommonMark.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		45A7CB0F19BD725100EAE282 /* CommonMark - OSX - Static FrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A7CB1919BD725100EAE282 /* Build configuration list for PBXNativeTarget "CommonMark - OSX - Static FrameworkTests" */;
+			buildPhases = (
+				45A7CB0C19BD725100EAE282 /* Sources */,
+				45A7CB0D19BD725100EAE282 /* Frameworks */,
+				45A7CB0E19BD725100EAE282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CommonMark - OSX - Static FrameworkTests";
+			productName = "CommonMark - OSX - Static FrameworkTests";
+			productReference = 45A7CB1019BD725100EAE282 /* CommonMark - OSX - Static FrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45A7CB2019BD726600EAE282 /* CommonMark - iOS - Static Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A7CB3119BD726700EAE282 /* Build configuration list for PBXNativeTarget "CommonMark - iOS - Static Framework" */;
+			buildPhases = (
+				45A7CB1C19BD726600EAE282 /* Sources */,
+				45A7CB1D19BD726600EAE282 /* Frameworks */,
+				45A7CB1E19BD726600EAE282 /* Headers */,
+				45A7CB1F19BD726600EAE282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CommonMark - iOS - Static Framework";
+			productName = "CommonMark - iOS - Static Framework";
+			productReference = 45A7CB2119BD726700EAE282 /* CommonMark.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		45A7CB2A19BD726700EAE282 /* CommonMark - iOS - Static FrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A7CB3419BD726700EAE282 /* Build configuration list for PBXNativeTarget "CommonMark - iOS - Static FrameworkTests" */;
+			buildPhases = (
+				45A7CB2719BD726700EAE282 /* Sources */,
+				45A7CB2819BD726700EAE282 /* Frameworks */,
+				45A7CB2919BD726700EAE282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CommonMark - iOS - Static FrameworkTests";
+			productName = "CommonMark - iOS - Static FrameworkTests";
+			productReference = 45A7CB2B19BD726700EAE282 /* CommonMark - iOS - Static FrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45A7CB5B19BD735700EAE282 /* CommonMarkC - OSX - Static Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A7CB5D19BD735700EAE282 /* Build configuration list for PBXNativeTarget "CommonMarkC - OSX - Static Library" */;
+			buildPhases = (
+				45A7CB5819BD735700EAE282 /* Sources */,
+				45A7CB5919BD735700EAE282 /* Frameworks */,
+				45A7CB5A19BD735700EAE282 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CommonMarkC - OSX - Static Library";
+			productName = "CommonMarkC - OSX - Static Library";
+			productReference = 45A7CB5C19BD735700EAE282 /* libCommonMark.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		45A7CB6D19BD738C00EAE282 /* CommonMarkC - iOS - Static Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A7CB7C19BD738C00EAE282 /* Build configuration list for PBXNativeTarget "CommonMarkC - iOS - Static Library" */;
+			buildPhases = (
+				45A7CB6A19BD738C00EAE282 /* Sources */,
+				45A7CB6B19BD738C00EAE282 /* Frameworks */,
+				45A7CB6C19BD738C00EAE282 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CommonMarkC - iOS - Static Library";
+			productName = "CommonMarkC - iOS - Static Library";
+			productReference = 45A7CB6E19BD738C00EAE282 /* libCommonMark.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		45E20BF219BC529E0095C94F /* CommonMark */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45E20BFA19BC529E0095C94F /* Build configuration list for PBXNativeTarget "CommonMark" */;
@@ -214,6 +622,24 @@
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = Eonil;
 				TargetAttributes = {
+					45A7CB0519BD725100EAE282 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					45A7CB0F19BD725100EAE282 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					45A7CB2019BD726600EAE282 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					45A7CB2A19BD726700EAE282 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					45A7CB5B19BD735700EAE282 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					45A7CB6D19BD738C00EAE282 = {
+						CreatedOnToolsVersion = 6.0;
+					};
 					45E20BF219BC529E0095C94F = {
 						CreatedOnToolsVersion = 6.0;
 					};
@@ -232,42 +658,388 @@
 			projectRoot = "";
 			targets = (
 				45E20BF219BC529E0095C94F /* CommonMark */,
+				45A7CB5B19BD735700EAE282 /* CommonMarkC - OSX - Static Library */,
+				45A7CB6D19BD738C00EAE282 /* CommonMarkC - iOS - Static Library */,
+				45A7CB0519BD725100EAE282 /* CommonMark - OSX - Static Framework */,
+				45A7CB0F19BD725100EAE282 /* CommonMark - OSX - Static FrameworkTests */,
+				45A7CB2019BD726600EAE282 /* CommonMark - iOS - Static Framework */,
+				45A7CB2A19BD726700EAE282 /* CommonMark - iOS - Static FrameworkTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		45A7CB0419BD725100EAE282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BCE45319BD7A50008F39C0 /* README.md in Resources */,
+				45BCE44E19BD7A4C008F39C0 /* license.bstrlib.txt in Resources */,
+				45BCE44F19BD7A4C008F39C0 /* license.uthash.txt in Resources */,
+				45BCE44D19BD7A4C008F39C0 /* LICENSE.CommonMark in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7CB0E19BD725100EAE282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7CB1F19BD726600EAE282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7CB2919BD726700EAE282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BCE45119BD7A4D008F39C0 /* license.bstrlib.txt in Resources */,
+				45BCE45219BD7A4D008F39C0 /* license.uthash.txt in Resources */,
+				45BCE45019BD7A4D008F39C0 /* LICENSE.CommonMark in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		45A7CB0119BD725100EAE282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BCE48219BD7DBF008F39C0 /* CommonMarkInline.m in Sources */,
+				45BCE45D19BD7DA7008F39C0 /* CommonMarkInlineLinkage.m in Sources */,
+				45BCE46219BD7DB1008F39C0 /* CommonMark__INTERNALS.m in Sources */,
+				45BCE48419BD7DBF008F39C0 /* CommonMarkReference.m in Sources */,
+				45BCE48019BD7DBF008F39C0 /* CommonMark__INTERNAL_STRING_UTILITIES.m in Sources */,
+				45BCE45F19BD7DAC008F39C0 /* CommonMark.m in Sources */,
+				45BCE48919BD7DBF008F39C0 /* CommonMarkUtilityFunctions.m in Sources */,
+				45BCE48719BD7DBF008F39C0 /* CommonMarkBlockList.m in Sources */,
+				45BCE48519BD7DBF008F39C0 /* CommonMarkSubject.m in Sources */,
+				45BCE48319BD7DBF008F39C0 /* CommonMarkInlineList.m in Sources */,
+				45BCE48119BD7DBF008F39C0 /* CommonMark__INTERNAL_ENUM_MAPPINGS.m in Sources */,
+				45BCE48819BD7DBF008F39C0 /* CommonMarkError.m in Sources */,
+				45BCE48619BD7DBF008F39C0 /* CommonMarkBlock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7CB0C19BD725100EAE282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A7CB1519BD725100EAE282 /* CommonMark___OSX___Static_FrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7CB1C19BD726600EAE282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BCE49219BD7DC0008F39C0 /* CommonMarkError.m in Sources */,
+				45BCE48F19BD7DC0008F39C0 /* CommonMarkSubject.m in Sources */,
+				45BCE48E19BD7DC0008F39C0 /* CommonMarkReference.m in Sources */,
+				45BCE48D19BD7DC0008F39C0 /* CommonMarkInlineList.m in Sources */,
+				45BCE48A19BD7DC0008F39C0 /* CommonMark__INTERNAL_STRING_UTILITIES.m in Sources */,
+				45BCE48C19BD7DC0008F39C0 /* CommonMarkInline.m in Sources */,
+				45BCE46319BD7DB1008F39C0 /* CommonMark__INTERNALS.m in Sources */,
+				45BCE48B19BD7DC0008F39C0 /* CommonMark__INTERNAL_ENUM_MAPPINGS.m in Sources */,
+				45BCE49319BD7DC0008F39C0 /* CommonMarkUtilityFunctions.m in Sources */,
+				45BCE45E19BD7DA8008F39C0 /* CommonMarkInlineLinkage.m in Sources */,
+				45BCE49019BD7DC0008F39C0 /* CommonMarkBlock.m in Sources */,
+				45BCE45519BD7A51008F39C0 /* README.md in Sources */,
+				45BCE46019BD7DAD008F39C0 /* CommonMark.m in Sources */,
+				45BCE49119BD7DC0008F39C0 /* CommonMarkBlockList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7CB2719BD726700EAE282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A7CB3019BD726700EAE282 /* CommonMark___iOS___Static_FrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7CB5819BD735700EAE282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A7CB6819BD737D00EAE282 /* scanners.c in Sources */,
+				45A7CB6519BD737D00EAE282 /* html.c in Sources */,
+				45A7CB6419BD737D00EAE282 /* detab.c in Sources */,
+				45A7CB6719BD737D00EAE282 /* print.c in Sources */,
+				45A7CB6619BD737D00EAE282 /* inlines.c in Sources */,
+				45A7CB6219BD737D00EAE282 /* bstrlib.c in Sources */,
+				45A7CB6919BD737D00EAE282 /* utf8.c in Sources */,
+				45A7CB6119BD737D00EAE282 /* blocks.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7CB6A19BD738C00EAE282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BCE44419BD7442008F39C0 /* scanners.c in Sources */,
+				45BCE44119BD7442008F39C0 /* html.c in Sources */,
+				45BCE44019BD7442008F39C0 /* detab.c in Sources */,
+				45BCE44319BD7442008F39C0 /* print.c in Sources */,
+				45BCE44219BD7442008F39C0 /* inlines.c in Sources */,
+				45BCE44519BD7442008F39C0 /* utf8.c in Sources */,
+				45BCE43E19BD7442008F39C0 /* blocks.c in Sources */,
+				45BCE43F19BD7442008F39C0 /* bstrlib.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		45E20BEF19BC529E0095C94F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45A7CAF719BD5C0100EAE282 /* CommonMarkInlineList.m in Sources */,
-				45E20D6E19BCFC120095C94F /* CommonMark__INTERNALS.m in Sources */,
-				45E20D4D19BC578F0095C94F /* scanners.c in Sources */,
-				45E20D5D19BC594F0095C94F /* CommonMarkReference.m in Sources */,
-				45E20D4A19BC578F0095C94F /* html.c in Sources */,
-				45E20D5A19BC59450095C94F /* CommonMarkInline.m in Sources */,
-				45E20D4919BC578E0095C94F /* detab.c in Sources */,
-				45E20D4C19BC578F0095C94F /* print.c in Sources */,
-				45E20D6019BC59590095C94F /* CommonMarkSubject.m in Sources */,
-				45E20D4B19BC578F0095C94F /* inlines.c in Sources */,
+				45BCE4A719BD9240008F39C0 /* CommonMarkBlockFencedCodeData.m in Sources */,
+				45BCE4A419BD9233008F39C0 /* CommonMarkBlockListData.m in Sources */,
+				45BCE4AA19BD924F008F39C0 /* CommonMarkBlockReferenceMap.m in Sources */,
 				45E20BF719BC529E0095C94F /* main.m in Sources */,
-				45E20D4E19BC578F0095C94F /* utf8.c in Sources */,
-				45E20D7119BCFDFD0095C94F /* CommonMarkError.m in Sources */,
-				45E20D4719BC578E0095C94F /* blocks.c in Sources */,
-				45E20D4819BC578E0095C94F /* bstrlib.c in Sources */,
-				45E20D7719BD07330095C94F /* CommonBlockList.m in Sources */,
-				45E20D6619BC597D0095C94F /* CommonMarkBlock.m in Sources */,
-				45E20D7A19BD07400095C94F /* CommonMarkBlockList.m in Sources */,
-				45E20D7D19BD2A970095C94F /* CommonMark.m in Sources */,
-				45A7CAFD19BD5CD500EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.m in Sources */,
-				45A7CB0019BD625000EAE282 /* CommonMark__INTERNAL_ENUM_MAPPINGS.m in Sources */,
+				45BCE49619BD813E008F39C0 /* CommonMarkProxyObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		45A7CB1719BD725100EAE282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CommonMark - OSX - Static Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45A7CB1819BD725100EAE282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = "CommonMark - OSX - Static Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45A7CB1A19BD725100EAE282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CommonMark - OSX - Static FrameworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45A7CB1B19BD725100EAE282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = "CommonMark - OSX - Static FrameworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		45A7CB3219BD726700EAE282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CommonMark - iOS - Static Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45A7CB3319BD726700EAE282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = "CommonMark - iOS - Static Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45A7CB3519BD726700EAE282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CommonMark - iOS - Static FrameworkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45A7CB3619BD726700EAE282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = "CommonMark - iOS - Static FrameworkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45A7CB5E19BD735700EAE282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+			};
+			name = Debug;
+		};
+		45A7CB5F19BD735700EAE282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+			};
+			name = Release;
+		};
+		45A7CB7D19BD738C00EAE282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		45A7CB7E19BD738C00EAE282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		45E20BF819BC529E0095C94F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -304,6 +1076,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -338,6 +1111,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -359,6 +1133,60 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		45A7CB1619BD725100EAE282 /* Build configuration list for PBXNativeTarget "CommonMark - OSX - Static Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A7CB1719BD725100EAE282 /* Debug */,
+				45A7CB1819BD725100EAE282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A7CB1919BD725100EAE282 /* Build configuration list for PBXNativeTarget "CommonMark - OSX - Static FrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A7CB1A19BD725100EAE282 /* Debug */,
+				45A7CB1B19BD725100EAE282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A7CB3119BD726700EAE282 /* Build configuration list for PBXNativeTarget "CommonMark - iOS - Static Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A7CB3219BD726700EAE282 /* Debug */,
+				45A7CB3319BD726700EAE282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A7CB3419BD726700EAE282 /* Build configuration list for PBXNativeTarget "CommonMark - iOS - Static FrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A7CB3519BD726700EAE282 /* Debug */,
+				45A7CB3619BD726700EAE282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A7CB5D19BD735700EAE282 /* Build configuration list for PBXNativeTarget "CommonMarkC - OSX - Static Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A7CB5E19BD735700EAE282 /* Debug */,
+				45A7CB5F19BD735700EAE282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A7CB7C19BD738C00EAE282 /* Build configuration list for PBXNativeTarget "CommonMarkC - iOS - Static Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A7CB7D19BD738C00EAE282 /* Debug */,
+				45A7CB7E19BD738C00EAE282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		45E20BEE19BC529E0095C94F /* Build configuration list for PBXProject "CommonMark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

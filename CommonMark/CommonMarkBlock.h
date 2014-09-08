@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Eonil. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "CommonMarkProxyObject.h"
 
 @class		CommonMarkError;
 @class		CommonMarkInlineList;
@@ -31,21 +31,17 @@ typedef NS_ENUM(NSUInteger, CommonMarkBlockTag)
 	CommonMarkBlockTagReferenceDef,
 };
 
-/*!
- Doubly linked list.
- */
-@interface	CommonMarkBlock : NSObject
+@interface	CommonMarkBlock : CommonMarkProxyObject
 @property	(readonly,nonatomic,assign)		CommonMarkBlockTag		tag;
 @property	(readonly,nonatomic,assign)		NSInteger				startLine;
 @property	(readonly,nonatomic,assign)		NSInteger				startColumn;
 @property	(readonly,nonatomic,assign)		NSInteger				endLine;
-- (NSArray*)allSubblocks;
 - (CommonMarkBlockList*)subblocks;
 - (CommonMarkBlock*)superblock;
 - (CommonMarkInlineList*)inlines;
 - (CommonMarkBlock*)priorBlock;
 - (CommonMarkBlock*)nextBlock;
-- (NSString*)HTMLString;
+- (NSString*)HTMLRepresentationString;
 
 - (id)copy NS_UNAVAILABLE;
 - (instancetype)init NS_UNAVAILABLE;
@@ -62,22 +58,16 @@ typedef NS_ENUM(NSUInteger, CommonMarkBlockTag)
 + (instancetype)blockWithString:(NSString*)string;
 @end
 
-
-
-
-
-
-@interface	CommonMarkListBlock : CommonMarkBlock
+@interface	CommonMarkBlock (CommonMarkBlockAttributes)
+//- (CommonMarkBlockListData*)listData;
+//- (CommonMarkBlockFencedCodeData*)fencedCodeData;
+- (NSDictionary*)referenceMap;
+- (NSUInteger)headerLevel;
 @end
 
-@interface	CommonMarkFencedCodeDataBlock : CommonMarkBlock
-@end
 
-@interface	CommonMarkHeaderBlock : CommonMarkBlock
-@end
 
-@interface	CommonMarkReferenceMapBlock : CommonMarkBlock
-@end
+
 
 
 
