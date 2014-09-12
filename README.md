@@ -4,11 +4,6 @@ Hoon H., 2014/09/07
 
 
 
-"CommonMark" source files are embedded to avoid extra 
-dependencies. If you want the original source, please
-visit [CommonMark](http://commonmark.org).
-
-
 
 
 
@@ -30,7 +25,7 @@ Getting Started
 
 How to Use
 ----------
-Majot features are incorported in `CommonBlock` class.
+Major features are incorported in `CommonBlock` class.
 Instnatiate the class to build a document tree.
 
 	CommonMarkError*	e1	=	nil;
@@ -85,6 +80,10 @@ The "CommonMark" source code is written by John MacFarlane
 and licensed under BSD license.
 Objective-C wrapper classes are written by Hoon H., and also
 licensed under BSD license.
+
+"CommonMark" source files are embedded to avoid extra 
+dependencies. If you want the original source, please
+visit [CommonMark](http://commonmark.org).
 
 
 

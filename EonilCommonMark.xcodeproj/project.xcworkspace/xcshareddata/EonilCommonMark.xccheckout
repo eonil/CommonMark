@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BEC26694-5823-47D7-BE74-D9F923055BA8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EonilCommonMark</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>120EA977BD48968EAB2368B0255C2CBB634BF08E</key>
+		<string>https://github.com/Eonil/Monolith.git</string>
+		<key>41F869EC968F4388C6DBC63F522C62C15AB785D4</key>
+		<string>https://github.com/Eonil/CommonMark.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EonilCommonMark.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>120EA977BD48968EAB2368B0255C2CBB634BF08E</key>
+		<string>../../../..</string>
+		<key>41F869EC968F4388C6DBC63F522C62C15AB785D4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Eonil/CommonMark.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>41F869EC968F4388C6DBC63F522C62C15AB785D4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>120EA977BD48968EAB2368B0255C2CBB634BF08E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>..</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>41F869EC968F4388C6DBC63F522C62C15AB785D4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CommonMark</string>
+		</dict>
+	</array>
+</dict>
+</plist>
