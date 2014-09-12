@@ -15,3 +15,4 @@
 #import "CommonMarkBlock.h"
 #import "CommonMarkBlockList.h"
 #import "CommonMarkError.h"
+#import "CommonMarkUtilityFunctions.h"

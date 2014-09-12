@@ -6,5 +6,5 @@
 //  Copyright (c) 2014 Eonil. All rights reserved.
 //
 
-#import "CommonMark.h"
+#import "EonilCommonMark.h"
 
