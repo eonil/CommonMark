@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "45A7CB5B19BD735700EAE282"
-               BuildableName = "libEonilCommonMark.a"
+               BuildableName = "libEonilCommonMarkC.a"
                BlueprintName = "EonilCommonMarkC - OSX - Static Library"
                ReferencedContainer = "container:EonilCommonMark.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "45A7CB5B19BD735700EAE282"
-            BuildableName = "libEonilCommonMark.a"
+            BuildableName = "libEonilCommonMarkC.a"
             BlueprintName = "EonilCommonMarkC - OSX - Static Library"
             ReferencedContainer = "container:EonilCommonMark.xcodeproj">
          </BuildableReference>
@@ -61,7 +61,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "45A7CB5B19BD735700EAE282"
-            BuildableName = "libEonilCommonMark.a"
+            BuildableName = "libEonilCommonMarkC.a"
             BlueprintName = "EonilCommonMarkC - OSX - Static Library"
             ReferencedContainer = "container:EonilCommonMark.xcodeproj">
          </BuildableReference>
