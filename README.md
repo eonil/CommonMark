@@ -13,11 +13,11 @@ Getting Started
 ---------------
 
 1.	Add "CommonMark.xcproj" as a subproject of your project.
-2.	Add a "Static Framework" by target OS.
-	Take care that all these targets are static library, 
-	then you don't have to copy them into the final product 
-	bundle, and also can be used for iOS 7.0-.
-3.	Don't forget adding `-ObjC` to "Other Linker Flags"!
+2.	Add a proper "Static Framework" for your target OS.
+	Take care that all these targets are static libraries, 
+	and you don't have to copy them into the final product 
+	bundle. And this also can be used for iOS 7.0 or earlier.
+3.	Don't forget to add `-ObjC` to "Other Linker Flags"!
 
 
 
@@ -25,7 +25,7 @@ Getting Started
 
 How to Use
 ----------
-Major features are incorported in `CommonBlock` class.
+Major features are incorported in `CommonMarkBlock` class.
 Instnatiate the class to build a document tree.
 
 	CommonMarkError*	e1	=	nil;
@@ -81,9 +81,10 @@ and licensed under BSD license.
 Objective-C wrapper classes are written by Hoon H., and also
 licensed under BSD license.
 
-"CommonMark" source files are embedded to avoid extra 
-dependencies. If you want the original source, please
-visit [CommonMark](http://commonmark.org).
+"CommonMark" source files are embedded for simple and stable
+build by avoiding extra dependencies and procedures. If you 
+want the latest original source, please visit 
+[CommonMark](http://commonmark.org).
 
 
 
