@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CommonMark.h"
+#import "EonilCommonMark.h"
 
 int main(int argc, const char * argv[])
 {

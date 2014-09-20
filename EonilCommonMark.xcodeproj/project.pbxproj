@@ -72,6 +72,7 @@
 		455AA8DD19C29F6C007A790A /* CommonMarkBlockListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BCE4A319BD9233008F39C0 /* CommonMarkBlockListData.m */; };
 		455AA8DE19C29F6C007A790A /* CommonMarkBlockReferenceMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BCE4A919BD924F008F39C0 /* CommonMarkBlockReferenceMap.m */; };
 		455AA8DF19C29F6C007A790A /* CommonMarkProxyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BCE49519BD813E008F39C0 /* CommonMarkProxyObject.m */; };
+		4588BB1119CD64B500357E40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4588BB1019CD64B500357E40 /* main.m */; };
 		4594093A19C36A460071FE41 /* libEonilCommonMarkC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7CB6E19BD738C00EAE282 /* libEonilCommonMarkC.a */; };
 		45A7CB3719BD727700EAE282 /* EonilCommonMark.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E20D7B19BD2A970095C94F /* EonilCommonMark.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45A7CB3819BD727800EAE282 /* EonilCommonMark.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E20D7B19BD2A970095C94F /* EonilCommonMark.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -148,7 +149,6 @@
 		45BCE49119BD7DC0008F39C0 /* CommonMarkBlockList.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D7919BD07400095C94F /* CommonMarkBlockList.m */; };
 		45BCE49219BD7DC0008F39C0 /* CommonMarkError.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D7019BCFDFD0095C94F /* CommonMarkError.m */; };
 		45BCE49319BD7DC0008F39C0 /* CommonMarkUtilityFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BCE44719BD7982008F39C0 /* CommonMarkUtilityFunctions.m */; };
-		45E20BF719BC529E0095C94F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20BF619BC529E0095C94F /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -209,6 +209,7 @@
 		453A243A19C29CBD00F73DC9 /* EonilCommonMark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EonilCommonMark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		453A243D19C29CBD00F73DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4588BB0D19CD639900357E40 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4588BB1019CD64B500357E40 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		45A7CAF519BD5C0100EAE282 /* CommonMarkInlineList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkInlineList.h; sourceTree = "<group>"; };
 		45A7CAF619BD5C0100EAE282 /* CommonMarkInlineList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMarkInlineList.m; sourceTree = "<group>"; };
 		45A7CAFB19BD5CD500EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMark__INTERNAL_STRING_UTILITIES.h; sourceTree = "<group>"; };
@@ -234,7 +235,6 @@
 		45BCE4A819BD924F008F39C0 /* CommonMarkBlockReferenceMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkBlockReferenceMap.h; sourceTree = "<group>"; };
 		45BCE4A919BD924F008F39C0 /* CommonMarkBlockReferenceMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMarkBlockReferenceMap.m; sourceTree = "<group>"; };
 		45E20BF319BC529E0095C94F /* EonilCommonMark */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EonilCommonMark; sourceTree = BUILT_PRODUCTS_DIR; };
-		45E20BF619BC529E0095C94F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		45E20D3B19BC578E0095C94F /* blocks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blocks.c; sourceTree = "<group>"; };
 		45E20D3C19BC578E0095C94F /* bstrlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bstrlib.c; sourceTree = "<group>"; };
 		45E20D3D19BC578E0095C94F /* bstrlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bstrlib.h; sourceTree = "<group>"; };
@@ -362,6 +362,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4588BB0F19CD64B500357E40 /* CommonMarkTest */ = {
+			isa = PBXGroup;
+			children = (
+				4588BB1019CD64B500357E40 /* main.m */,
+			);
+			path = CommonMarkTest;
+			sourceTree = "<group>";
+		};
 		45A7CB0719BD725100EAE282 /* CommonMark - OSX - Static Framework */ = {
 			isa = PBXGroup;
 			children = (
@@ -404,6 +412,7 @@
 				45A7CB2219BD726700EAE282 /* CommonMark - iOS - Static Framework */,
 				453A242019C29CAC00F73DC9 /* CommonMark - iOS - Dynamic Framework */,
 				453A243B19C29CBD00F73DC9 /* CommonMark - OSX - Dynamic Framework */,
+				4588BB0F19CD64B500357E40 /* CommonMarkTest */,
 				45E20BF419BC529E0095C94F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -426,7 +435,6 @@
 			isa = PBXGroup;
 			children = (
 				45E20CCF19BC544A0095C94F /* stmd */,
-				45E20BF619BC529E0095C94F /* main.m */,
 				45E20D7B19BD2A970095C94F /* EonilCommonMark.h */,
 				45E20D7C19BD2A970095C94F /* EonilCommonMark.m */,
 				45E20D6C19BCFC120095C94F /* CommonMark__INTERNALS.h */,
@@ -697,9 +705,9 @@
 			productReference = 45A7CB6E19BD738C00EAE282 /* libEonilCommonMarkC.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		45E20BF219BC529E0095C94F /* EonilCommonMark */ = {
+		45E20BF219BC529E0095C94F /* EonilCommonMarkTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45E20BFA19BC529E0095C94F /* Build configuration list for PBXNativeTarget "EonilCommonMark" */;
+			buildConfigurationList = 45E20BFA19BC529E0095C94F /* Build configuration list for PBXNativeTarget "EonilCommonMarkTest" */;
 			buildPhases = (
 				45E20BEF19BC529E0095C94F /* Sources */,
 				45E20BF019BC529E0095C94F /* Frameworks */,
@@ -709,7 +717,7 @@
 			);
 			dependencies = (
 			);
-			name = EonilCommonMark;
+			name = EonilCommonMarkTest;
 			productName = Markdown;
 			productReference = 45E20BF319BC529E0095C94F /* EonilCommonMark */;
 			productType = "com.apple.product-type.tool";
@@ -758,13 +766,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				45E20BF219BC529E0095C94F /* EonilCommonMark */,
 				45A7CB5B19BD735700EAE282 /* EonilCommonMarkC - OSX - Static Library */,
 				45A7CB6D19BD738C00EAE282 /* EonilCommonMarkC - iOS - Static Library */,
 				45A7CB0519BD725100EAE282 /* EonilCommonMark - OSX - Static Framework */,
 				45A7CB2019BD726600EAE282 /* EonilCommonMark - iOS - Static Framework */,
 				453A243919C29CBD00F73DC9 /* EonilCommonMark - OSX - Dynamic Framework */,
 				453A241E19C29CAC00F73DC9 /* EonilCommonMark - iOS - Dynamic Framework */,
+				45E20BF219BC529E0095C94F /* EonilCommonMarkTest */,
 			);
 		};
 /* End PBXProject section */
@@ -927,7 +935,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45E20BF719BC529E0095C94F /* main.m in Sources */,
+				4588BB1119CD64B500357E40 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1354,7 +1362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45E20BFA19BC529E0095C94F /* Build configuration list for PBXNativeTarget "EonilCommonMark" */ = {
+		45E20BFA19BC529E0095C94F /* Build configuration list for PBXNativeTarget "EonilCommonMarkTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45E20BFB19BC529E0095C94F /* Debug */,

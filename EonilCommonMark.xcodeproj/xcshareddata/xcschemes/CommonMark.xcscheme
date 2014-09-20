@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "45E20BF219BC529E0095C94F"
                BuildableName = "EonilCommonMark"
-               BlueprintName = "EonilCommonMark"
+               BlueprintName = "EonilCommonMarkTest"
                ReferencedContainer = "container:EonilCommonMark.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,7 +34,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "45E20BF219BC529E0095C94F"
             BuildableName = "EonilCommonMark"
-            BlueprintName = "EonilCommonMark"
+            BlueprintName = "EonilCommonMarkTest"
             ReferencedContainer = "container:EonilCommonMark.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -53,7 +53,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "45E20BF219BC529E0095C94F"
             BuildableName = "EonilCommonMark"
-            BlueprintName = "EonilCommonMark"
+            BlueprintName = "EonilCommonMarkTest"
             ReferencedContainer = "container:EonilCommonMark.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -71,7 +71,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "45E20BF219BC529E0095C94F"
             BuildableName = "EonilCommonMark"
-            BlueprintName = "EonilCommonMark"
+            BlueprintName = "EonilCommonMarkTest"
             ReferencedContainer = "container:EonilCommonMark.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
