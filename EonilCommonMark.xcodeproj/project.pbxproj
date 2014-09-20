@@ -728,7 +728,7 @@
 		45E20BEB19BC529E0095C94F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Eonil;
 				TargetAttributes = {
 					453A241E19C29CAC00F73DC9 = {
@@ -1158,6 +1158,7 @@
 		45A7CB5E19BD735700EAE282 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = lib;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1171,6 +1172,7 @@
 		45A7CB5F19BD735700EAE282 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = lib;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				PRODUCT_NAME = "$(PROJECT_NAME)C";
