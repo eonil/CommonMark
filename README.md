@@ -78,8 +78,15 @@ License
 -------
 The "CommonMark" source code is written by John MacFarlane
 and licensed under BSD license.
+The `bstrlib` source code is written by Paul Hsieh and licensed
+under BSD license.
+The `uthash` source code is written by Troy D. Hanson and licensed
+under BSD-like license.
 Objective-C wrapper classes are written by Hoon H., and also
 licensed under BSD license.
+
+License files of original project are included in `CommonMark/stmd`
+directory and symlinked in root.
 
 "CommonMark" source files are embedded for simple and stable
 build by avoiding extra dependencies and procedures. If you 

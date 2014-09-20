@@ -208,6 +208,7 @@
 		453A242219C29CAC00F73DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		453A243A19C29CBD00F73DC9 /* EonilCommonMark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EonilCommonMark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		453A243D19C29CBD00F73DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4588BB0D19CD639900357E40 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		45A7CAF519BD5C0100EAE282 /* CommonMarkInlineList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarkInlineList.h; sourceTree = "<group>"; };
 		45A7CAF619BD5C0100EAE282 /* CommonMarkInlineList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMarkInlineList.m; sourceTree = "<group>"; };
 		45A7CAFB19BD5CD500EAE282 /* CommonMark__INTERNAL_STRING_UTILITIES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMark__INTERNAL_STRING_UTILITIES.h; sourceTree = "<group>"; };
@@ -397,7 +398,7 @@
 			isa = PBXGroup;
 			children = (
 				45E20D5219BC57CF0095C94F /* README.md */,
-				45E20BFD19BC535F0095C94F /* Dependencies */,
+				4588BB0D19CD639900357E40 /* LICENSE */,
 				45E20BF519BC529E0095C94F /* CommonMark */,
 				45A7CB0719BD725100EAE282 /* CommonMark - OSX - Static Framework */,
 				45A7CB2219BD726700EAE282 /* CommonMark - iOS - Static Framework */,
@@ -462,13 +463,6 @@
 				45BCE44719BD7982008F39C0 /* CommonMarkUtilityFunctions.m */,
 			);
 			path = CommonMark;
-			sourceTree = "<group>";
-		};
-		45E20BFD19BC535F0095C94F /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Dependencies;
 			sourceTree = "<group>";
 		};
 		45E20CCF19BC544A0095C94F /* stmd */ = {
